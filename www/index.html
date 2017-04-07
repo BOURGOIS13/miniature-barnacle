@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <title>Hello World</title>
+</head>
+
+<!--  BEGINS: Page style settings -->
+
+<style>
+    html {
+        font-family: inherit;
+        background-color: inherit;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    h1{
+	'Baloo Chettan', cursive;
+    
+    p {
+	font-family: 'Amatic SC', cursive;
+        font-size: 1.3em;
+        padding-top: 10px;
+        text-align: center;
+    }
+</style>
+
+<!--  ENDS: Page style settings -->
+<!--  BEGINS: Content for our application -->
+
+<body class="container text-center">
+
+    <h1>TR@SH TiVi INTERNATIONAL</h1>
+    <img src="img/poster.jpg">
+<p>
+la web tivi de la marionnette sans fil<p>
+<button id="redirect" type="button" class="btn btn-danger">WEBTiVi</button>
+</body>
+
+<!--  ENDS: Content for our application  -->
+
+
+<!--  BEGINS: Script block  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    $("#redirect").click(function() {
+	window.location = "https://www.youtube.com/channel/UCllv_0pjByLuci4TB4xVuWw";
+    });
+</script>
+<!--  ENDS: Script block  -->
+
+</html>
